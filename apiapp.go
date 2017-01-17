@@ -72,7 +72,7 @@ import (
 	_ "{{.Appname}}/docs"
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 func main() {
@@ -90,8 +90,8 @@ import (
 	_ "{{.Appname}}/docs"
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
+	"github.com/pearcomms/beego"
+	"github.com/pearcomms/beego/orm"
 	{{.DriverPkg}}
 )
 
@@ -121,7 +121,7 @@ package routers
 import (
 	"{{.Appname}}/controllers"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 func init() {
@@ -290,7 +290,7 @@ import (
 	"{{.Appname}}/models"
 	"encoding/json"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 // Operations about object
@@ -383,7 +383,7 @@ import (
 	"{{.Appname}}/models"
 	"encoding/json"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 // Operations about Users
@@ -508,7 +508,7 @@ import (
 	"path/filepath"
 	_ "{{.Appname}}/routers"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 	. "github.com/smartystreets/goconvey/convey"
 )
 

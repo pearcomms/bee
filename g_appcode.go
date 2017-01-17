@@ -1009,7 +1009,7 @@ import (
 	"reflect"
 	"strings"
 	{{timePkg}}
-	"github.com/astaxie/beego/orm"
+	"github.com/pearcomms/beego/orm"
 )
 
 {{modelStruct}}
@@ -1154,7 +1154,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 // oprations for {{ctrlName}}
@@ -1323,7 +1323,7 @@ package routers
 import (
 	"{{pkgPath}}/controllers"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 func init() {
