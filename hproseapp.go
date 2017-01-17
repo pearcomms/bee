@@ -66,7 +66,7 @@ import (
 	"{{.Appname}}/models"
 	"github.com/hprose/hprose-go/hprose"
 
-	"github.com/astaxie/beego"
+	"github.com/pearcomms/beego"
 )
 
 func main() {
@@ -84,8 +84,8 @@ import (
 	"{{.Appname}}/models"
 	"github.com/hprose/hprose-go/hprose"
 
-	"github.com/astaxie/beego"
-	"github.com/astaxie/beego/orm"
+	"github.com/pearcomms/beego"
+	"github.com/pearcomms/beego/orm"
 	{{.DriverPkg}}
 )
 
